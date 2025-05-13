@@ -1,0 +1,6 @@
+Age,Gender,Region,NetworkCoverage,InternetSpeed,CustomerSupport,AppExperience,PlanSatisfaction,CallQuality,Duration,FeedbackText,PredictedScore,Sentiment,ChurnRisk
+43,Female,Andhra Pradesh,7,8,8,9,5,9,4.0,good,69.94392336944088,Positive,Low
+88,Male,Karnataka,5,9,8,9,8,7,3.0,good,83.27875452565726,Positive,Low
+24,Female,Karnataka,7,6,9,8,8,9,6.0,good signals,76.65620025599107,Positive,Low
+98,Female,Telangana,1,1,1,1,1,1,6.0,bad,10.068334635913438,Negative,High
+55,Female,Karnataka,10,9,10,10,10,10,9.99,Good signals,96.623072318384,Positive,Low

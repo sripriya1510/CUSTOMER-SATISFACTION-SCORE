@@ -1,0 +1,304 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "keywords": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
+      "response": "Hello! I'm EchoNova's AI assistant. How can I help you today?"
+    },
+    {
+      "tag": "how_are_you",
+      "keywords": ["how are you", "how r you", "how you doing"],
+      "response": "I'm doing great, thanks for asking! How can I assist you with your EchoNova services?"
+    },
+    {
+      "tag": "thanks",
+      "keywords": ["thank", "thanks", "thx", "thank you"],
+      "response": "You're welcome! Do you need help with anything else?"
+    },
+    {
+      "tag": "balance",
+      "keywords": ["balance", "check balance"],
+      "response": "To check your balance, dial *123# or open the EchoNova app and go to 'My Balance'."
+    },
+    {
+      "tag": "data_balance",
+      "keywords": ["data balance", "remaining data", "data left"],
+      "response": "Your remaining data balance is displayed in the EchoNova app under 'Data Usage' or dial *124#."
+    },
+    {
+      "tag": "call_balance",
+      "keywords": ["call balance", "minutes left", "call time"],
+      "response": "You can check your call balance by dialing *123*2# or via the 'Call Balance' section in the app."
+    },
+    {
+      "tag": "sms_balance",
+      "keywords": ["sms balance", "sms left", "remaining sms"],
+      "response": "To know your free SMS count, dial *123*3# or check 'SMS Packs' in the EchoNova app."
+    },
+    {
+      "tag": "recharge",
+      "keywords": ["recharge", "top up", "add money"],
+      "response": "To recharge, visit the 'Recharge' tab in the app or dial *123*1# and follow the prompts."
+    },
+    {
+      "tag": "plan_details",
+      "keywords": ["plan details", "my plan", "plan info"],
+      "response": "You can view your plan details in the app under 'My Plan', including validity and benefits."
+    },
+    {
+      "tag": "plan_benefits",
+      "keywords": ["plan benefits", "plan offers"],
+      "response": "Your current plan includes unlimited calls, 100 SMS/day, and 1.5GB/day data. Check 'Benefits' in the app for more."
+    },
+    {
+      "tag": "prepaid_plan",
+      "keywords": ["prepaid plan", "prepaid packages"],
+      "response": "We offer multiple prepaid plans starting from ₹99 to ₹2999. Check 'Prepaid Plans' in the app to choose your favorite."
+    },
+    {
+      "tag": "postpaid_plan",
+      "keywords": ["postpaid plan", "postpaid packages"],
+      "response": "Postpaid plans start from ₹399 to ₹9999 with various benefits. See 'Postpaid Plans' in the EchoNova portal."
+    },
+    {
+      "tag": "last_recharge",
+      "keywords": ["last recharge", "recent recharge"],
+      "response": "Your last recharge was on [date] for ₹[amount]. View your full history in the 'Transactions' section."
+    },
+    {
+      "tag": "bill_details",
+      "keywords": ["bill details", "my bill", "view bill"],
+      "response": "To view your bill details, log into the EchoNova portal, go to 'My Bills' and select the billing cycle."
+    },
+    {
+      "tag": "bill_payment",
+      "keywords": ["bill payment", "pay bill"],
+      "response": "You can pay your bill online via the EchoNova app using UPI, debit card, or net banking under 'Pay Bill'."
+    },
+    {
+      "tag": "due_date",
+      "keywords": ["due date", "bill due"],
+      "response": "Your next bill due date is displayed in the app under 'My Bills'. Please pay by then to avoid late fees."
+    },
+    {
+      "tag": "autopay",
+      "keywords": ["autopay", "auto pay", "automatic payment"],
+      "response": "Enable AutoPay in the app under 'Bill Settings' to automatically settle your bill each month."
+    },
+    {
+      "tag": "otp_help",
+      "keywords": ["otp", "one time password"],
+      "response": "If you haven't received the OTP, please wait a few seconds or request again. Ensure your network connectivity is stable."
+    },
+    {
+      "tag": "sim_activation",
+      "keywords": ["sim activation", "activate sim"],
+      "response": "To activate a new SIM, insert it and dial 12345 or visit your nearest EchoNova store with ID proof."
+    },
+    {
+      "tag": "sim_replacement",
+      "keywords": ["sim replacement", "replace sim"],
+      "response": "For SIM replacement, visit an EchoNova service center with valid ID proofs and fill out a SIM request form."
+    },
+    {
+      "tag": "sim_lost",
+      "keywords": ["sim lost", "lost sim"],
+      "response": "If your SIM is lost, immediately call customer care at 1800-123-4567 to deactivate it and request a new one."
+    },
+    {
+      "tag": "number_portability",
+      "keywords": ["port number", "number portability", "mnp"],
+      "response": "To port your number, dial 1900 for a UPC code, then submit it at an EchoNova outlet along with KYC documents."
+    },
+    {
+      "tag": "network_issues",
+      "keywords": ["network issues", "no network", "no service"],
+      "response": "Experiencing network issues? Try restarting your phone, toggling Airplane mode, or contact support if problems persist."
+    },
+    {
+      "tag": "slow_internet",
+      "keywords": ["slow internet", "internet slow"],
+      "response": "If your internet is slow, ensure you’re in 4G/5G coverage. You can also restart your device or check data usage."
+    },
+    {
+      "tag": "4g_coverage",
+      "keywords": ["4g coverage", "4g network"],
+      "response": "Check 4G coverage in your area via the 'Network Map' feature in the EchoNova app."
+    },
+    {
+      "tag": "5g_coverage",
+      "keywords": ["5g coverage", "5g network"],
+      "response": "5G is available in selected cities. Use the '5G Availability' section in the EchoNova app to verify coverage."
+    },
+    {
+      "tag": "international_roaming",
+      "keywords": ["international roaming", "roaming"],
+      "response": "To enable international roaming, go to 'Roaming & International' in the app or dial *123*ROAM#."
+    },
+    {
+      "tag": "volte_support",
+      "keywords": ["volte", "hd calling"],
+      "response": "VoLTE is enabled by default on most devices. Ensure 'Enhanced Calling' is turned on in your phone settings."
+    },
+    {
+      "tag": "hotspot_setup",
+      "keywords": ["hotspot", "mobile hotspot"],
+      "response": "To set up a hotspot, go to Settings > Personal Hotspot and enable it. Data charges will apply."
+    },
+    {
+      "tag": "call_drop",
+      "keywords": ["call drop", "dropped calls"],
+      "response": "If you face call drops, try moving to another location or switch network mode. Contact support if the issue continues."
+    },
+    {
+      "tag": "call_forwarding",
+      "keywords": ["call forwarding", "forward calls"],
+      "response": "Activate call forwarding via the app under 'Call Settings' or dial **21*<number># to forward all calls."
+    },
+    {
+      "tag": "voicemail_setup",
+      "keywords": ["voicemail", "voice mail"],
+      "response": "Set up voicemail by dialing 121. Follow the voice prompts to record your personal greeting."
+    },
+    {
+      "tag": "missed_call_alert",
+      "keywords": ["missed call alert", "missed calls"],
+      "response": "Enable Missed Call Alert in the app under 'Services' to get notifications for missed calls."
+    },
+    {
+      "tag": "dnd_settings",
+      "keywords": ["dnd", "do not disturb"],
+      "response": "To manage DND settings, go to Preferences > DND Settings in your EchoNova app."
+    },
+    {
+      "tag": "caller_tune",
+      "keywords": ["caller tune", "ringtone"],
+      "response": "Set your caller tune via the Caller Tunes section in the app or dial 56789."
+    },
+    {
+      "tag": "sms_packs",
+      "keywords": ["sms packs", "sms pack"],
+      "response": "Available SMS packs start at ₹19 for 100 SMS. Check 'SMS Packs' in the EchoNova app."
+    },
+    {
+      "tag": "data_packs",
+      "keywords": ["data packs", "data pack"],
+      "response": "We offer data packs from 1GB to 200GB. Browse 'Data Packs' in the app for pricing and validity."
+    },
+    {
+      "tag": "offers",
+      "keywords": ["offers", "special offers", "deals"],
+      "response": "Current recharge and data offers are listed under 'Offers' in the app. Don't miss special discounts!"
+    },
+    {
+      "tag": "family_plan",
+      "keywords": ["family plan", "family pack"],
+      "response": "We provide family plans under 'Family & Friends'. Share data and call benefits across up to 5 lines."
+    },
+    {
+      "tag": "multi_sim",
+      "keywords": ["multi sim", "multiple sims"],
+      "response": "Manage multiple SIMs in the 'Manage SIMs' section of the EchoNova app."
+    },
+    {
+      "tag": "customer_care",
+      "keywords": ["customer care", "support number", "contact us"],
+      "response": "For customer care, dial 1800-123-4567 (24/7) or use the 'Chat with Us' feature in the app."
+    },
+    {
+      "tag": "complaint",
+      "keywords": ["complaint", "lodge complaint", "file complaint"],
+      "response": "To lodge a complaint, go to Help & Support > Raise a Ticket in the app, or call 1800-123-4567."
+    },
+    {
+      "tag": "feedback",
+      "keywords": ["feedback", "give feedback"],
+      "response": "We appreciate your feedback! Please submit it via the Home page or use 'Feedback' in the app."
+    },
+    {
+      "tag": "refund",
+      "keywords": ["refund", "refund status"],
+      "response": "Refund requests are processed within 7 business days. Check status under 'My Refunds' in the portal."
+    },
+    {
+      "tag": "upgrade_plan",
+      "keywords": ["upgrade plan", "change plan"],
+      "response": "To upgrade your plan, visit My Plan > Change Plan in the EchoNova app."
+    },
+    {
+      "tag": "downgrade_plan",
+      "keywords": ["downgrade plan", "lower plan"],
+      "response": "To downgrade, go to My Plan > Change Plan and select a more cost-effective option."
+    },
+    {
+      "tag": "usage_alert",
+      "keywords": ["usage alert", "alert on usage"],
+      "response": "Enable usage alerts in Settings to get notified when you reach 80% of your data or call quota."
+    },
+    {
+      "tag": "data_rollover",
+      "keywords": ["data rollover", "rollover data"],
+      "response": "Data rollover is available on select plans. Check your eligibility under 'Rollover Settings' in the app."
+    },
+    {
+      "tag": "roaming_activation",
+      "keywords": ["roaming activation", "activate roaming"],
+      "response": "Activate roaming via 'Roaming & International' in the app or SMS ACT <country_code> to 123."
+    },
+    {
+      "tag": "network_map",
+      "keywords": ["network map", "coverage map"],
+      "response": "View the interactive Network Map in the app to see real-time coverage in your area."
+    },
+    {
+      "tag": "device_compatibility",
+      "keywords": ["device compatibility", "compatible device"],
+      "response": "Most modern 4G/5G devices are compatible. Check your device model in 'Device Support' in the app."
+    },
+    {
+      "tag": "hotspot_speed_limit",
+      "keywords": ["hotspot speed limit", "tethering speed"],
+      "response": "Hotspot speeds match your plan's data speed. Heavy usage may be throttled after high-speed data is exhausted."
+    },
+    {
+      "tag": "bill_download",
+      "keywords": ["download bill", "get bill copy"],
+      "response": "Download your bill PDF under 'My Bills' > Download Bill in the EchoNova portal."
+    },
+    {
+      "tag": "emi_plans",
+      "keywords": ["emi plan", "emi offers"],
+      "response": "We offer device EMIs. Check 'Device EMI Plans' in the app for interest-free options up to 24 months."
+    },
+    {
+      "tag": "device_upgrade",
+      "keywords": ["device upgrade", "upgrade device"],
+      "response": "Upgrade your device via 'Upgrade' in the app. Choose your new device and EMI plan."
+    },
+    {
+      "tag": "security_alerts",
+      "keywords": ["security alert", "fraud alert"],
+      "response": "Enable security alerts under 'Alerts & Notifications' to stay informed about suspicious activity."
+    },
+    {
+      "tag": "location_services",
+      "keywords": ["location services", "find my phone"],
+      "response": "Use 'Find My Device' services through our partner app. Go to Security > Locate Device in the app."
+    },
+    {
+      "tag": "fallback_positive",
+      "keywords": [],
+      "response": "Glad to hear that! 😊 What else can I do for you?"
+    },
+    {
+      "tag": "fallback_negative",
+      "keywords": [],
+      "response": "I'm sorry to hear that. How can I improve your EchoNova experience?"
+    },
+    {
+      "tag": "fallback_default",
+      "keywords": [],
+      "response": "I'm here to help with your EchoNova services - plans, balance, support, and more! What would you like to do?"
+    }
+  ]
+}
